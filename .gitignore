@@ -1,0 +1,57 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.out/
+.next/
+.svelte-kit/
+*.log
+
+# Static site generators
+.cache/
+public/
+
+# Local environment
+.env
+.env.* 
+!.env.example
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+*.local
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.tmp
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Optional: if using React Native Web or Expo Web
+web-build/
